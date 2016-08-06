@@ -16,7 +16,7 @@ module BmiCalculator
   # calc bmi.
   # @param [integer] height(cm) height
   # @param [float] weight(kg) weight
-  # @param [integer] round round numberfddfv
+  # @param [integer] round round number
   # @return [float] bmi
   def self.calc_cm(height, weight, round=1)
 
