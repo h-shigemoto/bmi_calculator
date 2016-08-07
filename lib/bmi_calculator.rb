@@ -26,6 +26,20 @@ module BmiCalculator
     bmi.round(round)
   end
 
+  # calc bmi.
+  # @param [integer] height(cm) height
+  # @param [float] weight(g) weight
+  # @param [integer] round round number
+  # @return [float] bmi
+  def self.calc_cm_g(height, weight, round=1)
+
+    height_m = (height / 100.0).round(2)
+    weight_kg = (weight / 1000.0).round(1)
+
+    bmi = weight_kg / (height_m * height_m)
+    bmi.round(round)
+  end
+
   # calc bmi by yard-pound.
   # @param [integer] height_ft height(feet)
   # @param [integer] height_in height(inch)

@@ -15,6 +15,11 @@ describe BmiCalculator do
     expect(bmi).to eq 22.9
   end
 
+  it 'calc height(cm), weight(g)' do
+    bmi = BmiCalculator.calc_cm_g(175, 70000)
+    expect(bmi).to eq 22.9
+  end
+
   it 'calc yard-pounds' do
     bmi = BmiCalculator.calc_yp(5, 7, 150)
     expect(bmi).to eq 23.5
