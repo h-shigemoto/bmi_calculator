@@ -29,6 +29,9 @@ bmi = BmiCalculator.calc_m(1.7, 60)
 # calc cm, kg
 bmi = BmiCalculator.calc_cm(170, 60)
 
+# calc cm, g
+bmi = BmiCalculator.calc_cm_g(170, 60000)
+
 # calc feet, inch, pound
 bmi = BmiCalculator.calc_yp(5, 7, 130)
 ```
