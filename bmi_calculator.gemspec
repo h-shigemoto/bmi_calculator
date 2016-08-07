@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["corporation.ore@gmail.com"]
 
   spec.summary       = %q{Calculation BMI. height use m, cm, feet and inch.}
-  spec.description   = %q{Calculation BMI. height use m, cm, feet and inch. You can use very easy to use.}
+  spec.description   = %q{Calculation BMI. height use m, cm, feet and inch. You can very easy to use.}
   spec.homepage      = "https://github.com/h-shigemoto/bmi_calculator"
   spec.license       = "MIT"
 
