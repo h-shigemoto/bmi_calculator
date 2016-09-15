@@ -69,8 +69,7 @@ module BmiCalculator
   end
 
   # calc bmi by yard-pound.
-  # @param [integer] height_ft height(feet)
-  # @param [integer] height_in height(inch)
+  # @param [integer] height height(inch)
   # @param [float] weight weight(pound)
   # @param [integer] round round number
   # @return [float] bmi

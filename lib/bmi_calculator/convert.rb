@@ -1,7 +1,7 @@
 
 module BmiCalculator
 
-  # 変換クラス
+  # Convert class
   class Convert
 
     # convert feet to inch.
