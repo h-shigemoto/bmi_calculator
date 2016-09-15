@@ -34,6 +34,12 @@ bmi = BmiCalculator.calc_cm_g(170, 60000)
 
 # calc feet, inch, pound
 bmi = BmiCalculator.calc_yp(5, 7, 130)
+
+# calc feet, pound
+bmi = BmiCalculator.calc_feet_yp(5.5, 130)
+
+# calc inch, pound
+bmi = BmiCalculator.calc_inch_yp(67, 130)
 ```
 
 ## Development
@@ -44,7 +50,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/h-shigemoto/bmi_calculator. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/koyupi/bmi_calculator. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
 ## License

@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Calculation BMI. height use m, cm, feet and inch.}
   spec.description   = %q{Calculation BMI. height use m, cm, feet and inch. You can very easy to use.}
-  spec.homepage      = "https://github.com/h-shigemoto/bmi_calculator"
+  spec.homepage      = "https://github.com/koyupi/bmi_calculator"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

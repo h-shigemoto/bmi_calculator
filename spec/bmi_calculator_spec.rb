@@ -24,4 +24,14 @@ describe BmiCalculator do
     bmi = BmiCalculator.calc_yp(5, 7, 150)
     expect(bmi).to eq 23.5
   end
+
+  it 'calc yard-pounds inch' do
+    bmi = BmiCalculator.calc_inch_yp(67, 150)
+    expect(bmi).to eq 23.5
+  end
+
+  it 'calc yard-pounds feet' do
+    bmi = BmiCalculator.calc_feet_yp((67 / 12.0), 150)
+    expect(bmi).to eq 23.5
+  end
 end
