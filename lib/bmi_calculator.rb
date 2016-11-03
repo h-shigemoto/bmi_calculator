@@ -50,7 +50,7 @@ module BmiCalculator
   def self.calc_yp(height_ft, height_in, weight, round=1)
 
     # 1feet = 12inch
-    height = ((height_ft * 12) + height_in) * 1.0
+    height = (BmiCalculator::Convert.feet_to_inch(height_ft) + height_in) * 1.0
     # calc bmi.
     calc_inner_yp(height, weight, round)
   end
